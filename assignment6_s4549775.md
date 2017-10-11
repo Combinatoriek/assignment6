@@ -76,6 +76,10 @@ $\begin{aligned}
 	N(P_{100}) &= \lfloor \frac{100}{100} \rfloor &&= 1\\
 \end{aligned}$
 
+$\begin{aligned}
+	N(P'_4 P'_9 P'_{16} P'_{25} P'_{36} P'_{49} P'_{64} P'_{81} P'_{100}) &=\\
+\end{aligned}$
+
 # 12
 First we partition the eight balls into 3 partitons, which can be done in $S(8, 3) = 966$ ways. Then we choose which of the partitions we put into which urn, which can be done in $3! = 6$ ways.
 
