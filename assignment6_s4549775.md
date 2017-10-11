@@ -63,6 +63,9 @@ There are 195 total elements in the four sets.
 # 11
 
 # 12
+First we partition the eight balls into 3 partitons, which can be done in $S(8, 3) = 966$ ways. Then we choose which of the partitions we put into which urn, which can be done in $3! = 6$ ways.
+
+In total we can distribute the 8 balls in $966 * 6 = 5796$ ways.
 
 # 13
 ## a
