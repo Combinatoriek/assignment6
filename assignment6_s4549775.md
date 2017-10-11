@@ -90,6 +90,13 @@ In total we can distribute the 8 balls in $966 * 6 = 5796$ ways.
 ## b
 
 # 14
+$\begin{aligned}
+	D_6 &= 6! \sum_{k = 0}^6 \frac{(-1)^k}{k!}\\
+	&= 6! (1 - \frac{1}{2!} + \frac{1}{3!} - \frac{1}{4!} + \frac{1}{5!} - \frac{1}{6!})\\
+	&= 455\\
+\end{aligned}$
+
+There are 455 derangements of the set $\{1, 2, 3, 4, 5, 6\}$.
 
 # 15
 ## a
