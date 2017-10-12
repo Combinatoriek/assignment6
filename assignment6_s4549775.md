@@ -98,7 +98,7 @@ $\begin{aligned}
 
 There are 455 derangements of the set $\{1, 2, 3, 4, 5, 6\}$.
 
-$2 * 3! = 12$ of these derangements end with $1, 2, 3$ in some order.
+$3!^2 = 36$ of these derangements end with $1, 2, 3$ in some order.
 
 # 15
 ## a
