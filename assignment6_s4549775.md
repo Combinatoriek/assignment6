@@ -151,7 +151,7 @@ For $n = 14, k = 3$ this is $\binom{14 + 3 - 1}{3 - 1} = \binom{16}{2}$.
 
 $N = \binom{16}{2}$ (see b)
 
-To know how many distributions exist with $x \geq 4, y \geq 5, z \geq 8$ respectively, we first put 4 balls into x, then divide the rest, then put 5 balls into x and divide the rest, \dots. Then we sum the possibilities:
+To know how many distributions exist with $x \geq 4, y \geq 5, z \geq 8$ respectively, we first put 4 balls into $x$, then divide the rest, then put 5 balls into $x$ and divide the rest, \dots. Then we sum the possibilities:
 
 * $N(P_x)$:
 
