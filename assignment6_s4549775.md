@@ -108,7 +108,7 @@ In total we can distribute the 8 balls in $966 * 6 = 5796$ ways.
 $\begin{aligned}
 	D_n &= (n - 1)(D_{n - 1} + D_{n - 2})\\
 	&= n D_{n - 1} - D_{n - 1} + (n - 1) D_{n - 2}\\
-	D_n - n D_{n - 1} &= D_{n - 1} + (n - 1) D_{n - 2}\\
+	D_n - n D_{n - 1} &= D_{n - 1} + (n - 1) D_{n - 2} &\stackrel{?}{=} (-1)^n\\
 \end{aligned}$
 
 # 14
