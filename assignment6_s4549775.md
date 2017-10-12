@@ -176,7 +176,7 @@ To know how many distributions exist with $x \geq 4, y \geq 5, z \geq 8$ respect
 	$\begin{aligned}
 		\sum_{i = 8}^{14} \binom{14 - i + 2 - 1}{2 - 1}
 		&= \binom{7}{1} + \binom{6}{1} + \binom{5}{1} + \dots + \binom{1}{1}\\
-		&= 10 + 9 + 8 + \dots + 5\\
+		&= 7 + 6 + 5 + \dots + 1\\
 		&= 28
 	\end{aligned}$
 
