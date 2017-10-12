@@ -180,6 +180,45 @@ To know how many distributions exist with $x \geq 4, y \geq 5, z \geq 8$ respect
 		&= 28
 	\end{aligned}$
 
+Next we put 4 balls into $x$, and 5 balls into $y$, then the remaining ones into $z$. After that we do $x = 4, y = 6$, \dots. Then we sum the possibilities:
+
+* $N(P_x P_y)$:
+
+	* $x = 4, y = 5$
+	* \dots
+	* $x = 4, y = 10$
+	* $x = 5, y = 5$
+	* \dots
+	* $x = 9, y = 5$
+
+	$\begin{aligned}
+		N(P_x P_y)
+		&= \sum_{i = 4}^{14 - 5} (14 - i - 5 + 1)\\
+		&= (14 - 4 - 5 + 1) + (14 - 5 - 5 + 1) + \dots + (14 - 9 - 5 + 1)\\
+		&= 6 + 5 + \dots + 1\\
+		&= 21\\
+	\end{aligned}$
+
+* $N(P_x P_z)$:
+
+	$\begin{aligned}
+		N(P_x P_z)
+		&= \sum_{i = 4}^{14 - 8} (14 - i - 8 + 1)\\
+		&= (14 - 4 - 8 + 1) + (14 - 5 - 8 + 1) + (14 - 6 - 8 + 1)\\
+		&= 3 + 2 + 1\\
+		&= 6\\
+	\end{aligned}$
+
+* $N(P_y P_z)$:
+
+	$\begin{aligned}
+		N(P_y P_z)
+		&= \sum_{i = 5}^{14 - 8} (14 - i - 8 + 1)\\
+		&= (14 - 5 - 8 + 1) + (14 - 6 - 8 + 1)\\
+		&= 2 + 1\\
+		&= 3\\
+	\end{aligned}$
+
 * $N(P_x P_y P_z)$:
 
 	$4 + 5 + 8 > 14$, so $N(P_x P_y P_z) = 0$.
