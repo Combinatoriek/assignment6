@@ -181,6 +181,7 @@ To know how many distributions exist with $x \geq 4, y \geq 5, z \geq 8$ respect
 	\end{aligned}$
 
 $\begin{aligned}
+	N =&\ 120\\
 	N(P_x) =&\ 66\\
 	N(P_y) =&\ 55\\
 	N(P_z) =&\ 28\\
@@ -192,5 +193,8 @@ $\begin{aligned}
 	&- N(P_x) - N(P_y) - N(P_6)\\
 	&+ N(P_x P_y) + N(P_x P_z) + N(P_y P_z)\\
 	&- N(P_x P_y P_z)\\
-	=&\ \\
+	=&\ 120\\
+	&- 66 - 55 - 28\\
+	&+ \\
+	&- \\
 \end{aligned}$
