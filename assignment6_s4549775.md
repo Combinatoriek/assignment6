@@ -145,3 +145,23 @@ We put unlabeled objects into labeled boxes. We know there are $\binom{n + k - 1
 For $n = 14, k = 3$ this is $\binom{14 + 3 - 1}{3 - 1} = \binom{16}{2}$.
 
 ## c
+* $P_x$: $x \geq 4$
+* $P_y$: $y \geq 5$
+* $P_z$: $z \geq 8$
+
+$N = \binom{16}{2}$ (see b)
+
+$\begin{aligned}
+	N(P_x) =&\ \\
+	N(P_y) =&\ \\
+	N(P_z) =&\ \\
+	N(P_x P_y) =&\ \\
+	N(P_x P_z) =&\ \\
+	N(P_y P_z) =&\ \\
+	N(P_x P_y P_z) =&\ \\
+	N(P'_x P'_y P'_z) =&\ N\\
+	&- N(P_x) - N(P_y) - N(P_6)\\
+	&+ N(P_x P_y) + N(P_x P_z) + N(P_y P_z)\\
+	&- N(P_x P_y P_z)\\
+	=&\ \\
+\end{aligned}$
