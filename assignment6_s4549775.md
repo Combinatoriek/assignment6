@@ -246,3 +246,5 @@ $\begin{aligned}
 \end{aligned}$
 
 So only one out of the 120 possibilities fulfills the requirement.
+
+$3 + 4 + 7 = 14$
