@@ -27,7 +27,7 @@ $\begin{aligned}
 	&= 116\\
 \end{aligned}$
 
-113 students like none of the three vegetables.
+116 students like none of the three vegetables.
 
 # 9
 * $P_i$: membership in set $i$
