@@ -151,10 +151,39 @@ For $n = 14, k = 3$ this is $\binom{14 + 3 - 1}{3 - 1} = \binom{16}{2}$.
 
 $N = \binom{16}{2}$ (see b)
 
+To know how many distributions exist with $x \geq 4, y \geq 5, z \geq 8$ respectively, we first put 4 balls into x, then divide the rest, then put 5 balls into x and divide the rest, \dots. Then we sum the possibilities:
+
+* $N(P_x)$:
+
+	$\begin{aligned}
+		\sum_{i = 4}^{14} \binom{14 - i + 2 - 1}{2 - 1}
+		&= \binom{11}{1} + \binom{10}{1} + \binom{9}{1} + \dots + \binom{1}{1}\\
+		&= 11 + 10 + 9 + \dots + 1\\
+		&= 66
+	\end{aligned}$
+
+* $N(P_y)$:
+
+	$\begin{aligned}
+		\sum_{i = 5}^{14} \binom{14 - i + 2 - 1}{2 - 1}
+		&= \binom{10}{1} + \binom{9}{1} + \binom{8}{1} + \dots + \binom{1}{1}\\
+		&= 10 + 9 + 8 + \dots + 1\\
+		&= 55
+	\end{aligned}$
+
+* $N(P_z)$:
+
+	$\begin{aligned}
+		\sum_{i = 8}^{14} \binom{14 - i + 2 - 1}{2 - 1}
+		&= \binom{10}{1} + \binom{9}{1} + \binom{8}{1} + \dots + \binom{5}{1}\\
+		&= 10 + 9 + 8 + \dots + 5\\
+		&= 28
+	\end{aligned}$
+
 $\begin{aligned}
-	N(P_x) =&\ \\
-	N(P_y) =&\ \\
-	N(P_z) =&\ \\
+	N(P_x) =&\ 66\\
+	N(P_y) =&\ 55\\
+	N(P_z) =&\ 28\\
 	N(P_x P_y) =&\ \\
 	N(P_x P_z) =&\ \\
 	N(P_y P_z) =&\ \\
