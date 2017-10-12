@@ -124,5 +124,13 @@ $3!^2 = 36$ of these derangements end with $1, 2, 3$ in some order.
 
 # 15
 ## a
+i. If exactly two letters end up in their correct envelope, than $6 - 2 = 4$ letters are deranged. There are $D_4 = 9$ derangements. We need to choose which two letters end up in the correct envelope, there are $\binom{6}{2}$ possibilities. The probability that exactly two letters end up in the correct envelope is
+
+	$\begin{aligned}
+		\frac{9 * 15}{6!} &= \frac{135}{720}\\
+		&= \frac{27}{144}\\
+		&= \frac{3}{16}\\
+	\end{aligned}$
+
 ## b
 ## c
