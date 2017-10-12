@@ -192,7 +192,7 @@ $\begin{aligned}
 	N(P_x P_y) =&\ \\
 	N(P_x P_z) =&\ \\
 	N(P_y P_z) =&\ \\
-	N(P_x P_y P_z) =&\ \\
+	N(P_x P_y P_z) =&\ 0\\
 	N(P'_x P'_y P'_z) =&\ N\\
 	&- N(P_x) - N(P_y) - N(P_6)\\
 	&+ N(P_x P_y) + N(P_x P_z) + N(P_y P_z)\\
@@ -200,5 +200,5 @@ $\begin{aligned}
 	=&\ 120\\
 	&- 66 - 55 - 28\\
 	&+ \\
-	&- \\
+	&- 0\\
 \end{aligned}$
