@@ -63,17 +63,14 @@ There are 195 total elements in the four sets.
 # 11
 * $P_i$: divisible by $i$
 
+There are only 4 squares of prime numbers which are less than 100.
+
 $\begin{aligned}
-	N &= 100\\
-	N(P_4) &= \lfloor \frac{100}{4} \rfloor &&= 25\\
-	N(P_9) &= \lfloor \frac{100}{9} \rfloor &&= 11\\
-	N(P_{16}) &= \lfloor \frac{100}{16} \rfloor &&= 6\\
-	N(P_{25}) &= \lfloor \frac{100}{25} \rfloor &&= 4\\
-	N(P_{36}) &= \lfloor \frac{100}{36} \rfloor &&= 2\\
-	N(P_{49}) &= \lfloor \frac{100}{49} \rfloor &&= 2\\
-	N(P_{64}) &= \lfloor \frac{100}{64} \rfloor &&= 1\\
-	N(P_{81}) &= \lfloor \frac{100}{81} \rfloor &&= 1\\
-	N(P_{100}) &= \lfloor \frac{100}{100} \rfloor &&= 1\\
+	N &= 99\\
+	N(P_4) &= \lfloor \frac{99}{4} \rfloor &&= 24\\
+	N(P_9) &= \lfloor \frac{99}{9} \rfloor &&= 11\\
+	N(P_{25}) &= \lfloor \frac{99}{25} \rfloor &&= 4\\
+	N(P_{49}) &= \lfloor \frac{99}{49} \rfloor &&= 2\\
 \end{aligned}$
 
 $\begin{aligned}
