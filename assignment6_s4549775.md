@@ -140,4 +140,8 @@ ii. By the same principle as (i):
 	\end{aligned}$
 
 ## b
+We put unlabeled objects into labeled boxes. We know there are $\binom{n + k - 1}{k - 1}$ possibilities to do this.
+
+For $n = 14, k = 3$ this is $\binom{14 + 3 - 1}{3 - 1} = \binom{16}{2}$.
+
 ## c
