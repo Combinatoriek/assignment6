@@ -132,5 +132,12 @@ i. If exactly two letters end up in their correct envelope, than $6 - 2 = 4$ let
 		&= \frac{3}{16}\\
 	\end{aligned}$
 
+ii. By the same principle as (i):
+
+	$\begin{aligned}
+		\frac{\binom{6}{1} D_1}{6!} &= \frac{6 * 0}{720}\\
+		&= 0\\
+	\end{aligned}$
+
 ## b
 ## c
