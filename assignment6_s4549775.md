@@ -59,6 +59,19 @@ $\begin{aligned}
 There are 195 total elements in the four sets.
 
 # 10
+We can use the same principle as for sets, except that everything is divided by $n$.
+
+$p(E) = \frac{N(E)}{N}$
+
+We know that $p(E'_1 \cap E'_2 \cap E'_3 \cap E'_4) = 0$
+
+$\begin{aligned}
+	p(E_1 \cup E_2 \cup E_3 \cup E_4) =&\ 1\\
+	&- p(E'_1) - p(E'_2) - p(E'_3) - p(E'_4)\\
+	&+ p(E'_1 \cap E'_2) + p(E'_1 \cap E'_3) + p(E'_1 \cap E'_4) + p(E'_2 \cap E'_3) + p(E'_2 \cap E'_4) + p(E'_3 \cap E'_4)\\
+	&- p(E'_1 \cap E'_2 \cap E'_3) - p(E'_1 \cap E'_2 \cap E'_4) - p(E'_1 \cap E'_3 \cap E'_4) - p(E'_2 \cap E'_3 \cap E'_4)\\
+	&+ 0\\
+\end{aligned}$
 
 # 11
 * $P_i$: divisible by $i$
