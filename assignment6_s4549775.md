@@ -180,6 +180,10 @@ To know how many distributions exist with $x \geq 4, y \geq 5, z \geq 8$ respect
 		&= 28
 	\end{aligned}$
 
+* $N(P_x P_y P_z)$:
+
+	$4 + 5 + 8 > 14$, so $N(P_x P_y P_z) = 0$.
+
 $\begin{aligned}
 	N =&\ 120\\
 	N(P_x) =&\ 66\\
