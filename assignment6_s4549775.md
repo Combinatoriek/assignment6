@@ -69,12 +69,18 @@ $\begin{aligned}
 	N &= 99\\
 	N(P_4) &= \lfloor \frac{99}{4} \rfloor &&= 24\\
 	N(P_9) &= \lfloor \frac{99}{9} \rfloor &&= 11\\
-	N(P_{25}) &= \lfloor \frac{99}{25} \rfloor &&= 4\\
+	N(P_{25}) &= \lfloor \frac{99}{25} \rfloor &&= 3\\
 	N(P_{49}) &= \lfloor \frac{99}{49} \rfloor &&= 2\\
+	N(P_4 P_9) &= \lfloor \frac{99}{36} \rfloor &&= 2\\
 \end{aligned}$
 
 $\begin{aligned}
-	N(P'_4 P'_9 P'_{16} P'_{25} P'_{36} P'_{49} P'_{64} P'_{81} P'_{100}) &=\\
+	N(P'_4 P'_9 P'_{25} P'_{49} =&\ N\\
+	&- N(P_4) - N(P_9) - N(P_{25} - N(P_{49}))\\
+	&+ N(P_4 P_9) + N(P_4 P_{25}) + N(P_4 P_{49}) + N(P_9 P_{25}) + N(P_9 P_{49} + N(P_{25} P_{47}))\\
+	&- N(P_4 P_9 P_{25}) - N(P_4 P_9 P_{49}) - N(P_4 P_{25} P_{49}) - N(P_9 P_{25} P_{49})\\
+	&+ N(P_4 P_9 P_{25} P_{49})\\
+	=&\ \\
 \end{aligned}$
 
 # 12
