@@ -223,6 +223,8 @@ Next we put 4 balls into $x$, and 5 balls into $y$, then the remaining ones into
 
 	$4 + 5 + 8 > 14$, so $N(P_x P_y P_z) = 0$.
 
+By inclusion and exclusion we get
+
 $\begin{aligned}
 	N =&\ 120\\
 	N(P_x) =&\ 66\\
@@ -240,4 +242,7 @@ $\begin{aligned}
 	&- 66 - 55 - 28\\
 	&+ 21 + 6 + 3\\
 	&- 0\\
+	&= 1\\
 \end{aligned}$
+
+So only one out of the 120 possibilities fulfills the requirement.
